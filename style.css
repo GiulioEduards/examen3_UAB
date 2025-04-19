@@ -1,0 +1,45 @@
+body {
+  background-image: url('https://previews.123rf.com/images/hoverfly/hoverfly1509/hoverfly150900033/45581883-comida-r%C3%A1pida-patr%C3%B3n-sin-fisuras-en-el-fondo-beige.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  /* Opcional: para asegurar que el contenido sea legible */
+  background-color: rgba(255, 255, 255, 0.7);
+  background-blend-mode: lighten;
+}
+
+.hover-edit {
+  position: relative;
+}
+.edit-buttons {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.hover-edit:hover .edit-buttons {
+  display: block;
+}
+
+.cont1 {
+  background-color: rgba(229, 217, 182, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 2%;
+}
+.cont1 h2, .cont2 h2 {
+  margin-left: 15px;
+}
+.Añadir button {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.cont2 {
+  background-color: rgba(229, 217, 182, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  border-bottom: 2%;
+}
+
